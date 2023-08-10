@@ -64,11 +64,10 @@ footer{
 }
 @media (max-width:600px){
     header{
-        background-color: red;
         width:100vh;
     }
     #con{
-        width: 80%;
+        width: 90%;
         height: 70%;
     }
     #consin{
