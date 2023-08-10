@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background:cadetblue;
     display: flex;
     align-items: center;
@@ -62,4 +61,18 @@ header{
 footer{
     position: fixed;
     bottom: 0;
+}
+@media (max-width:600px){
+    header{
+        background-color: red;
+        width:100vh;
+    }
+    #con{
+        width: 80%;
+        height: 70%;
+    }
+    #consin{
+        width: 80%;
+        height: 50%;
+    }
 }
